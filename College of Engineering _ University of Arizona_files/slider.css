@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+  
+ #slider2,
+#slider3 {
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  margin: 0 auto;
+  }
+
+.callbacks1_tabs {
+  list-style: none;
+  padding: 0;
+  font-size: 0px;
+  list-style: none;
+  margin: 0 auto -20px;
+  max-width: 540px;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+  text-indent:-9000;
+  position:relative;
+  top:-50px;
+  
+  z-index:2;
+  }
+
+.callbacks1_tabs li {
+  display: inline;
+  float: none;
+  margin-right: 3px;
+  }
+
+.callbacks1_tabs a {
+  width: 12px;
+  height: 12px;
+  border:#FFF solid 1px;
+  background: transparent;
+  display: inline-block;
+  -webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px;
+  }
+
+.callbacks1_tabs li:first-child {
+  margin-left: 0;
+  }
+
+.callbacks1_tabs .callbacks_here a {
+  background:#fff;
+  color: #fff;
+  font-weight: bold;
+  }
+ 
+ 
+.callbacks {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.callbacks li {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.callbacks img {
+  display: block;
+  position: relative;
+  z-index: 1;
+  height: auto;
+  width: 100%;
+  border: 0;
+  }
+
+.callbacks .caption {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  text-shadow: none;
+  left: 7%;
+  right: 7%;
+  top: 150px;
+  padding: 10px 20px;
+  margin: 0;
+  max-width: none;
+  }
+ 
+.callbacks .caption h1{
+	 font-size:55px;
+	 margin:0px;
+	 padding:0px;
+	 color:#FFF;
+	  text-shadow: 3px 3px 3px #333;
+	  font-weight:lighter;
+  } 
+
+.callbacks_nav {
+  position: absolute;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  top: 75%;
+  left: 0;
+  opacity: 0.7;
+  z-index: 3;
+  text-indent: -9999px;
+  overflow: hidden;
+  text-decoration: none;
+  height: 61px;
+  width: 38px;
+  /* background: transparent url("../images/themes.gif") no-repeat left top; */
+  margin-top: -45px;
+  }
+
+.callbacks_nav:active {
+  opacity: 1.0;
+  }
+
+.callbacks_nav.next {
+  left: auto;
+  background-position: right top;
+  right: 0;
+  }
+ 
